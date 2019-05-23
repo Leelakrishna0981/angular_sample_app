@@ -1,11 +1,10 @@
-angular.module("myApp").controller("myFirstController",function($scope){
-    let Student={
+angular.module("myApp").controller("myFirstController", function ($scope)
+{
+    let Student= {
         FirstName: "Leela Krishna",
-        LastName: "Kosaraju",
-        StudentId: "S534629@nwmissouri.edu"
+        LastName : "Kosaraju",
+        StudentId : "S534629@nwmisouri.edu"
     }
     $scope.Student=Student;
-})
-let mycontroller=function($scope){
-    $scope.message="Hello World";
-}
+    
+});
